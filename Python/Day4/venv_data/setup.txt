@@ -1,0 +1,18 @@
+python -m venv project_env
+
+C:\Users\my pc\Desktop>project_env\Scripts\activate.bat 
+in linux to activate
+$source project_env/bin/activate
+where python
+
+pip list
+pip freeze
+pip freeze >requirements.txt
+
+deactivate
+
+mkdir my_project
+cd my_project
+python -m venv venv
+venv\Scripts\activate.bat
+pip install -r "C:\Users\my pc\Desktop\requirements.txt"
